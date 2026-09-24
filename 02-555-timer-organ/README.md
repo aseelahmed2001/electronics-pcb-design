@@ -183,11 +183,11 @@ The repository contains:
 
 Gerber files:
 
-`manufacturing/gerber/`
+`manufacturing/Gerber/`
 
 NC drill files:
 
-`manufacturing/nc-drill/`
+`manufacturing/NC-Drill/`
 
 Bill of Materials:
 
@@ -207,8 +207,8 @@ Bill of Materials:
 │   └── 555_Timer_PCB.CMPcbDoc
 │
 ├── manufacturing/
-│   ├── gerber/
-│   ├── nc-drill/
+│   ├── Gerber/
+│   ├── NC_Drill/
 │   └── BOM_555_Timer.xlsx
 │
 └── images/
