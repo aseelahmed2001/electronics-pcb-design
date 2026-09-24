@@ -4,7 +4,7 @@ A 12-note electronic mini-organ based on a 555 timer oscillator.
 
 This project was completed as part of the *Crash Course Electronics and PCB Design* course and demonstrates schematic capture, PCB layout, routing, component selection, and preparation of PCB manufacturing files using Altium CircuitMaker.
 
-![PCB 3D View](images/pcb_3d.png)
+![PCB 3D View](images/PCB_3D.png)
 
 ---
 
@@ -118,7 +118,7 @@ The output section also contains:
 
 The complete schematic was created in Altium CircuitMaker.
 
-![555 Timer Mini-Organ Schematic](images/schematic.png)
+![555 Timer Mini-Organ Schematic](images/PCB_Schematic.png)
 
 The schematic includes the complete power, oscillator, note-selection, output, and test-point circuitry.
 
@@ -141,11 +141,11 @@ The PCB design process included:
 
 ### Top Layer
 
-![PCB Top Layer](images/pcb_top_layer.png)
+![PCB Top Layer](images/PCB_TopLayer.png)
 
 ### Bottom Layer
 
-![PCB Bottom Layer](images/pcb_bottom_layer.png)
+![PCB Bottom Layer](images/PCB_BottomLayer.png)
 
 ---
 
@@ -153,7 +153,7 @@ The PCB design process included:
 
 The completed PCB layout was inspected using the 3D visualization environment in CircuitMaker.
 
-![PCB 3D View](images/pcb_3d.png)
+![PCB 3D View](images/PCB_3D.png)
 
 The 3D view provides a visual check of component placement, orientation, spacing, and the overall board layout.
 
@@ -202,7 +202,7 @@ Bill of Materials:
 │
 ├── README.md
 │
-├── design-files/
+├── design_files/
 │   ├── 555_Timer_Schematic.SchDoc
 │   └── 555_Timer_PCB.CMPcbDoc
 │
@@ -212,7 +212,7 @@ Bill of Materials:
 │   └── BOM_555_Timer.xlsx
 │
 └── images/
-    ├── schematic.png
-    ├── pcb_top_layer.png
-    ├── pcb_bottom_layer.png
-    └── pcb_3d.png
+    ├── PCB_Schematic.png
+    ├── PCB_TopLayer.png
+    ├── PCB_BottomLayer.png
+    └── PCB_3D.png
